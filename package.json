@@ -1,0 +1,13 @@
+{
+  "name": "bitten-pear-icon",
+  "version": "1.0.0",
+  "description": "Bitten pear icon component for React, crafted in Lucide style.",
+  "main": "index.js",
+  "type": "module",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "keywords": ["lucide", "react", "icon", "pear", "bitten-pear", "apple-parody"],
+  "author": "Azuzula",
+  "license": "MIT"
+}
