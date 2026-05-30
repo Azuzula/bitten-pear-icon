@@ -13,14 +13,21 @@ npm install github:Azuzula/bitten-pear-icon
 
 ## Usage
 
+### React (JSX)
 ```jsx
-import { PearBitten } from 'lucide-pear-bitten';
+import { PearBitten } from 'bitten-pear-icon';
 
 function App() {
-  return (
-    <div>
-      <PearBitten size={48} color="#10b981" />
-    </div>
-  );
+  return <PearBitten size={48} color="#10b981" />;
 }
+```
+
+### React + TypeScript (TSX)
+```tsx
+import React from 'react';
+import { PearBitten, PearBittenProps } from 'bitten-pear-icon';
+
+const CustomIcon = (props: PearBittenProps) => {
+  return <PearBitten size="2rem" {...props} />;
+};
 ```
